@@ -7,42 +7,40 @@
 </head>
 <body>
     <h1></h1>
-<form onsubmit="return validar()">
+    <form onsubmit="return validar()">
 
-    Nome <br><br>
+             Nome <br><br>
 
-    <input type="text" name="nome" id="nome"> <br><br>
+            <input type="text" name="nome" id="nome"> <br><br>
 
-    Sobrenome <br><br>
+            Sobrenome <br><br>
 
-    <input type="text" name="sobrenome" id=" sobrenome"> <br> <br>
+            <input type="text" name="sobrenome" id="sobrenome" > <br> <br>
 
-    Ano de nacimento <br><br>
-  <input type="date" name="nacimento" id="nacimento"> <br><br>
-    Qual graduação pretende cursar?
-    <select name="curso" id="curso">
-        <option>Medicina</option>
-        <option>Agronomia</option>
-        <option>Medicina Veterinaria</option>
-        <option>Odontologia</option>
-        <option>TI</option>
-    </select><br><br>
-    Turnos disponíveis <br><br>
+            Ano de nacimento <br><br>
+            <input type="text" name="nacimento" id="nacimento" > <br><br>
+            Qual graduação pretende cursar?
+            <select name="curso" id="curso" >
+                <option value="medicina">Medicina</option>
+                <option value="agronomia">Agronomia</option>
+                <option value="veterinaria">Medicina Veterinaria</option>
+                <option value="odontologia">Odontologia</option>
+                <option value="ti">TI</option>
+            </select><br><br>
+            Turnos disponíveis <br><br>
 
-    Matutino
-    <input type="checkbox" name="matutino" id="matutino"><br><br>
+             Matutino
+            <input type="checkbox" name="turno" id="matutino" value="matutino"><br><br>
 
-    Vespertino
-    <input type="checkbox" name="matutino" id="matutino"><br><br>
+            Vespertino
+            <input type="checkbox" name="turno" id="vespertino" value="vespertino"><br><br>
 
-    Noturno
-    <input type="checkbox" name="matutino" id="matutino"><br><br>
+            Noturno
+            <input type="checkbox" name="turno" id="noturno" value="noturno"><br><br>
+            Salvar
+            <input type="submit" value="validar" >
+    
+        </form>
 
-    Intregal
-    <input type="checkbox" name="matutino" id="matutino"><br><br>
-
-    <button>Salvar</button> 
-</form>
-
-</body>
+    </body>
 </html>
