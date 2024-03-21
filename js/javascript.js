@@ -5,11 +5,10 @@ function validar() {
     let nacimento = document.getElementById("nacimento").value;
     let curso = document.getElementById("curso").value;
     let turno = document.getElementById("nome").value;
- console.log("oi");
+ 
     if (nome.value == "") {
-        
-    alert("Erro: Nome Vazio");
-    return false;
+    alert("erro");
+     return false;   
     }
 
     if (sobrenome.value == "") {
